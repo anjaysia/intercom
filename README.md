@@ -67,7 +67,7 @@ Intercom is a single long-running Pear process that participates in three distin
                                  |                              |
                                  | SC-Bridge (ws://host:port)   | P2P (Hyperswarm)
                                  v                              v
-                       +-----------------+            +-----------------------+
+                       +-----------------+      +-----------------------+
                        | Agent / tooling |            | Other peers (P2P)     |
                        | (no TTY needed) |<---------->| subnet + sidechannels |
                        +-----------------+            +-----------------------+
@@ -79,3 +79,7 @@ Intercom is a single long-running Pear process that participates in three distin
 
 ---
 If you plan to build your own app, study the existing contract/protocol and remove example logic as needed (see `SKILL.md`).
+
+## Trac Address (for payouts)
+trac1j8fl9j8ndjetm09gfrhyvvn98a5ac5p005g3hglqn9fvclpxe56qkpuj5u
+
